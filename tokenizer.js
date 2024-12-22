@@ -69,11 +69,18 @@ function tokenizeJavaScriptWithTypes(code) {
   return tokens;
 }
 
-// Example usage
+// Example usage for "for loop"
 const code = `
 for (let i = 0; i < 10; i++) {
   console.log(i);
 }
 `;
+
+// Example usage for "if statement"
+// const code = `
+// for (let i = 0; i < 10; i++) {
+//   console.log(i);
+// }
+// `;
 
 console.log(tokenizeJavaScriptWithTypes(code));
