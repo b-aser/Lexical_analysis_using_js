@@ -73,6 +73,14 @@ If you want to test the tokenizer with different JavaScript code, you can modify
 
 ```javascript
 const code = `
+for (let i = 0; i < 10; i++) {
+  console.log(i);
+}
+`;
+```
+to
+```javascript
+const code = `
 if (x > 10) {
     console.log("x is greater than 10");
 } else if (x === 10) {
@@ -81,8 +89,6 @@ if (x > 10) {
     console.log("x is less than 10");
 }
 `;
-
-console.log(tokenizeJavaScriptWithTypes(code));
 ```
 
 ### Step 6: Run the Code
