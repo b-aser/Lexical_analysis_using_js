@@ -76,7 +76,7 @@ for (let i = 0; i < 10; i++) {
 }
 `;
 
-// Example usage for "if statement"
+// Example usage for "if statement" uncomment it to use it (dont forget to coment the above code)
 // const code = `
 // for (let i = 0; i < 10; i++) {
 //   console.log(i);
