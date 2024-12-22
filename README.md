@@ -1,7 +1,3 @@
-Sure! Here's a revised version of the **`README.md`** with detailed instructions on how to download or clone an existing GitHub repository, set it up in **Visual Studio Code**, and use the code from the repository.
-
----
-
 # JavaScript Tokenizer with Type Detection
 
 This project is a simple JavaScript tokenizer that breaks down JavaScript code into tokens and categorizes each token by type. It is useful for analyzing or parsing JavaScript code into its core components, such as keywords, identifiers, operators, literals, and punctuation.
